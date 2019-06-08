@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.14)
+project(x11_fps C)
+set(CMAKE_C_STANDARD 99)
+add_executable(x11_fps x11-fps.c)
+target_link_libraries(x11_fps X11)
